@@ -1,0 +1,11 @@
+{
+  "$id": "https://nhsdigital.github.io/nhs-notify-standards/cloudevents/example.json",
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Example Event",
+  "description": "Example  event",
+  
+  "allOf": [{ "$ref": "https://nhsdigital.github.io/nhs-notify-standards/cloudevents/nhs-notify-profile.schema.json" }],
+  "properties": {
+    "data": { "$ref": "https://nhsdigital.github.io/nhs-notify-standards/cloudevents/example-data.json" }
+  }
+}
